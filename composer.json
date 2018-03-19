@@ -1,0 +1,13 @@
+{
+    "name": "ecomcoders/symlinked-media-directory",
+    "description": "Bugfix to M2 2.2.3 until issue 13929 is solved",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "EcomCoders\\SymlinkedMediaDirectory\\": ""
+        }
+    }
+}
